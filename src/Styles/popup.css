@@ -1,0 +1,45 @@
+.centered,
+.centered:before,
+.centered:after {
+  box-sizing: border-box;
+  padding: 5px;
+  margin: 2px;
+}
+
+.centered {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  /* min-height: 100vh; */
+}
+
+.popup {
+  background: rgb(210, 210, 210);
+  position: absolute;
+  z-index: 5;
+}
+
+input[type="text"], input[type="number"] {
+    border:0;
+    border-radius: 10px;
+    box-shadow:0 0 15px 4px rgba(0, 0, 0, 0.06);
+}
+
+input[type="button"] {
+    appearance:none;
+    -webkit-appearance:none;
+  
+    /* usual styles */
+    border:none;
+    background-color:#3F51B5;
+    color:#fff;
+    font-weight:600;
+    border-radius:5px;
+    width:25%;
+}
+
+img {
+    width: 700px;
+}

@@ -10,9 +10,11 @@
   },
   "dependencies": {
     "antd": "4.24.3",
+    "konva": "8.3.13",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-konva": "^18.2.5"
+    "react-konva": "^18.2.5",
+    "react-router-dom": "^6.8.2"
   },
   "devDependencies": {
     "@types/react": "^18.0.27",
